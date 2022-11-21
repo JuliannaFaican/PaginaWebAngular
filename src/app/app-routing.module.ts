@@ -2,7 +2,6 @@ import { Component, NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AComponent } from 'src/components/a/a.component';
 import { BComponent } from 'src/components/b/b.component';
-import { ModuleChaoComponent } from 'src/components/component_chao/module-chao/module-chao/module-chao.component';
 import { DComponent } from 'src/components/d/d.component';
 
 
