@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ModuleHolaComponent } from './module-hola.component';
+import { DComponent } from './d.component';
 
-describe('ModuleHolaComponent', () => {
-  let component: ModuleHolaComponent;
-  let fixture: ComponentFixture<ModuleHolaComponent>;
+describe('DComponent', () => {
+  let component: DComponent;
+  let fixture: ComponentFixture<DComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ModuleHolaComponent ]
+      declarations: [ DComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ModuleHolaComponent);
+    fixture = TestBed.createComponent(DComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
